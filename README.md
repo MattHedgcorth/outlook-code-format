@@ -1,5 +1,6 @@
 # outlook-code-format
-```function loadDropDown() {
+```
+function loadDropDown() {
     $.ajax({
         url: 'webservices/AcctNumber.asmx/GetSeriesData',
         type: "POST",
@@ -8,4 +9,5 @@
         success: parse,
         error: loadfail
     });
-}```
+}
+```
